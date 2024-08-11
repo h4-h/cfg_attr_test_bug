@@ -1,0 +1,10 @@
+[package]
+name = "test_attr_in_subcrate"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["subcrate"]
+
+[dependencies]
+subcrate = { path = "subcrate" }
